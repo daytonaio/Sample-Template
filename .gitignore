@@ -1,0 +1,72 @@
+# GITIGNORE SAMPLE
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.sqlite3
+
+# Django
+*.log
+*.pot
+db.sqlite3
+.DS_Store
+
+# Environments
+.env
+*.env
+
+# pip
+pip-log.txt
+
+# Virtual environments
+venv/
+env/
+venv*/  
+ENV/
+env.bak/
+.env.bak/
+
+# IDEs and Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+*.icloud
+
+# Static and Media Files
+/static/
+media/
+
+# Compiled files and caches
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+bin/
+var/
+sdist/
+
+# Coverage reports
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# Tests and CI
+*.pytest_cache/
+coverage.xml
+nosetests.xml
+junit.xml
+.testrepository/
+.cache
+node_modules/
+
+# Migrations
+**/migrations/**/ 
+!**/migrations/__init__.py
